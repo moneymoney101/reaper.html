@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            /*  */
+        }
+        @keyframes Slide {
+            from {
+                left: 100%;
+            }
+            to {
+                left: 0%;
+            }
+        }
+        #emoji {
+            position: absolute;
+            animation: Slide 2s infinite;
+        }
+    </style>
+</head>
+<body>
+
+    <p style="background-color:Tomato;">
+
+    <h1 id="emoji">
+        😃
+    </h1>
+
+    <div>
+        <h1><p>Hello</p></h1>
+        <button>Alert</button>
+        <ul>
+            <li class="giant">j</li>
+            <li class="giant">e</li>
+            <li class="giant">s</li>
+            <li class="giant">us</li>
+        </ul>
+    </div>
+   
+ <script>
+document.querySelector('h1').innerHTML = "Hello, Usher";
+           document.querySelector('#emoji').innerHTML = "Hello, My name is Usher";
+           
+           document.getElementById("emoji").innerHTML = "Hello, My name is Usher";
+
+           console.log(document.getElementsByClassName("giant"));
+
+ </script>
+
+    
+</body>
+</html>
